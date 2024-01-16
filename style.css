@@ -115,6 +115,82 @@
     margin-top: 100px;
 }
 
+/* footer */
+
+.footer-heading {
+    display: flex;
+    height: 46.673px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    gap: 16px;
+}
+
+.footer-img {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-paraghraph {
+    text-align: center;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+
+/* shared logo start */
+#infinte {
+    color: #708090;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 5.5px;
+}
+
+
+#adventures {
+    font-style: italic;
+    color: #FF5400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+/* shared logo end */
+
+/* icon */
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 32px;
+
+}
+
+.fb,
+.inta,
+.lin {
+    width: 30px;
+    height: 24px;
+}
+
+.all-right {
+    color: #131318;
+    margin-top: 125px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+
+
 
 
 
@@ -144,17 +220,44 @@
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         margin: 0px auto;
-         gap: 0px; 
+        gap: 0px;
     }
 
-    .img-1, .img-2, .img-3,.img-4,.img-5,.img-6,.img-7{
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6,
+    .img-7 {
         width: 100%;
         margin-top: 5px;
     }
 
-    .p3-text-heading,.p3-paragraph{
+    .p3-text-heading,
+    .p3-paragraph {
         padding: 0px;
         width: 100%;
+    }
+
+    /* footer */
+
+    .footer-heading{
+        
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+
+    #infinte {
+        font-size: 23px;
+    }
+    #adventures{
+        font-size: 23px;
+    }
+
+    .footer-img {
+        width: 25px;
+height: 25; 
     }
 
 }
