@@ -189,10 +189,94 @@
 
 }
 
+/* newsletter */
+
+.newsletter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 10px;
+    width: 440px;
+    height: 340px;
+
+}
 
 
 
+.newsletter-img {
+    width: 880px;
+    height: 422px;
+    border-radius: 35px
+}
 
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.input-newsletter {
+    background-color: #FFF8DC;
+    border-radius: 35px;
+    width: 600px;
+    height: 422px;
+
+}
+
+.input {
+    padding: 15px;
+    margin-top: 30px;
+
+}
+
+.enter-name,
+.enter-email,
+.submit {
+    width: 550px;
+    height: 52px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 0px;
+
+}
+.submit{
+    background: #FF5400; 
+    
+    color: #FFF8DC;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.enter-name,
+.enter-email{
+    padding-left: 10px;
+}
+.heading-newsletter {
+    color: #131318;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+}
+
+.p-newsletter {
+    color: #5A5A5D;
+    font-family: 'Arial Narrow Bold';
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.hr-line{
+    padding: 0 15px;
+    
+}
 
 /* mobile */
 
@@ -242,8 +326,8 @@
 
     /* footer */
 
-    .footer-heading{
-        
+    .footer-heading {
+
         flex-direction: row;
         padding-bottom: 20px;
     }
@@ -251,13 +335,14 @@
     #infinte {
         font-size: 23px;
     }
-    #adventures{
+
+    #adventures {
         font-size: 23px;
     }
 
     .footer-img {
         width: 25px;
-height: 25; 
+        height: 25;
     }
 
 }
